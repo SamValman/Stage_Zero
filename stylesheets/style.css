@@ -87,7 +87,7 @@ p {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 #index-description img{
     margin-top: 10px;
