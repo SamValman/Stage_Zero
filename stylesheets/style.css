@@ -126,4 +126,18 @@ p {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 50px;
+}
+
+/* peerreview */
+
+#bibliography {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+#bibliography div p { 
+  font-style: italic;
 }
