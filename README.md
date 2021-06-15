@@ -7,3 +7,13 @@ This will be a central point for all information on stage zero including webinar
 
 Any recommendations, critisims or requests please email:
 Samuel.valman@nottingham.ac.uk
+
+
+
+
+
+To add:
+Blog page
+Important parties
+Upcoming events
+better case studies page seperate from resources
