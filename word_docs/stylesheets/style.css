@@ -1,0 +1,190 @@
+/* Reset */
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+  }
+
+/* General  */
+a {
+    color: #333;
+    text-decoration: none;
+  }
+html,body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+  }
+
+h1, h2, h3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  
+p {
+    margin: 10px 0;
+  }
+
+/* Utility Classes */
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+  }
+
+/* Navbar */
+#navbar {
+    background: #333;
+    /* background: #636160; */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    color: #fff;
+    overflow: auto;
+  }
+  
+#navbar a {
+    color: #fff;
+  }
+  
+  #navbar h1 {
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  
+  #navbar ul {
+    list-style: none;
+    float: right;
+  }
+  
+  #navbar ul li {
+    float: left;
+  }
+  
+  #navbar ul li a {
+    display: block;
+    padding: 20px 10px 40px 10px;
+    text-align: center;
+  }
+  
+  #navbar ul li a:hover, 
+  #navbar ul li a.current {
+    background: #444;
+    color: #f7c08a;
+  }
+  .img_txt {
+    font-style: italic;
+  }
+
+/* Development banner */
+#developmentbanner{
+    margin-top: 80px; 
+    background-color: #888 ;
+    color: white;
+}
+
+
+/* INDEX */
+#index-description {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+#index-description img{
+    margin-top: 10px;
+    align-self: center;
+    height: 500px;
+    width: 75%;
+}
+#index-description .container img{
+    align-self: center;
+    width: 100%;
+}
+#home-info .info-img {
+    float: left;
+    width: 50%;
+    height: 500px;
+    background: url('../img/photo-1.jpg') no-repeat;
+    min-height: 100%;
+  }
+
+  /* Footer */
+#main-footer {
+    display: flex;
+    /* text-align: center; */
+    align-items:flex-start;
+    background: #444;
+    color: #fff;
+    padding: 20px;
+  }
+#main-footer img {
+    width: 20%;
+}
+
+/* Resources */
+
+#resourceslist {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+/* About */
+#content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+#content h1 {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+#content h2 {
+  font-style: italic;
+  align-self:flex-start; 
+}
+
+#content img{
+  margin-top: 10px;
+  align-self: center;
+  height: 500px;
+  width: 75%;
+}
+
+#content p {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+#bibliography {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+#bibliography div p { 
+  font-style: italic;
+}
+
+/* Benefits */
+
+#benefit-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+#benefit-content h3 {
+  align-self: start;
+}
+
+
