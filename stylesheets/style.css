@@ -15,8 +15,12 @@ html,body {
     line-height: 1.7em;
   }
 
-h1, h2, h3 {
+h1, h2 {
+
     padding-bottom: 20px;
+  }
+  h3 {
+    padding: 20px;
   }
   
 p {
@@ -72,7 +76,9 @@ p {
     background: #444;
     color: #f7c08a;
   }
-  
+  .img_txt {
+    font-style: italic;
+  }
 
 /* Development banner */
 #developmentbanner{
@@ -142,7 +148,7 @@ p {
 }
 #content h2 {
   font-style: italic;
-  align-self:flex-start 
+  align-self:flex-start; 
 }
 
 #content img{
@@ -150,6 +156,7 @@ p {
   align-self: center;
   height: 500px;
   width: 75%;
+}
 
 #content p {
   display: flex;
