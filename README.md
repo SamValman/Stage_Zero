@@ -13,7 +13,7 @@ Samuel.valman@nottingham.ac.uk
 
 
 To add:
-Blog page
-Important parties
-Upcoming events
-better case studies page seperate from resources
+<li> Blog page
+<li>Important parties
+<li>Upcoming events
+<li>better case studies page seperate from resources
