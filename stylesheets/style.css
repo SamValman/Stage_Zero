@@ -13,6 +13,7 @@ a {
 html,body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.7em;
+    font-weight: 600;
   }
 
 h1, h2, h3 {
@@ -131,6 +132,24 @@ p {
     align-items: center;
     flex-direction: column;
     margin-bottom: 50px;
+}
+.box {
+  background-color: rgb(219, 216, 216);
+  /* margin: 10px, 10px; */
+  border-radius: 10px;
+  text-align: center;
+  /* padding: 10px, 10px; */
+  color: black;
+}
+
+.box h3  {
+  margin-bottom: 2px;
+  padding-bottom: 1px;
+}
+.box a{
+  color: black;
+  font-weight: bold;
+  font-style: oblique;
 }
 
 /* About */
