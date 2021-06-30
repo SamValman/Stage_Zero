@@ -38,7 +38,7 @@ p {
 #navbar {
     background: #333;
     /* background: #636160; */
-    position: fixed;
+    position:fixed;
     width: 100%;
     top: 0;
     color: #fff;
@@ -81,6 +81,7 @@ p {
 
 /* Development banner */
 #developmentbanner{
+    display: flex;
     margin-top: 80px; 
     background-color: #888 ;
     color: white;
@@ -88,6 +89,30 @@ p {
 
 
 /* INDEX */
+
+/* Container holding the image and the text */
+.title_container {
+  position: relative;
+  text-align: center;
+  color: #black;
+}
+/* HWEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE */
+.centered {
+  position: absolute;
+  /* display:flex; */
+  align-items:center;
+  text-align: center;
+  /* padding-bottom: 100px; */
+  /* overflow: visible; */
+  /* text-size-adjust; */
+  font-size: 90px;
+  top: 20%;
+  bottom: 80%;
+  /* bottom: 100%; */
+  left: 10%; 
+  right: 10%;
+  /* transform: translate(-50%, -50%); */
+}
 #index-description {
     display: flex;
     align-items: center;
@@ -98,7 +123,8 @@ p {
     margin-top: 10px;
     align-self: center;
     height: 500px;
-    width: 75%;
+    width: 100%;
+
 }
 #index-description .container img{
     align-self: center;
