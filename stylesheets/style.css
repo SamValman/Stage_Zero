@@ -20,7 +20,11 @@ h1, h2, h3 {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+  .all_imgages {
+    max-width: 100%;
+    margin: auto;
 
+  }
   
 p {
     margin: 10px 0;
@@ -94,7 +98,7 @@ p {
 .title_container {
   position: relative;
   text-align: center;
-  color: #black;
+  color: black;
 }
 /* HWEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE */
 .centered {
@@ -194,12 +198,6 @@ p {
   align-self:flex-start; 
 }
 
-#content img{
-  margin-top: 10px;
-  align-self: center;
-  height: 500px;
-  width: 75%;
-}
 
 #content p {
   display: flex;
