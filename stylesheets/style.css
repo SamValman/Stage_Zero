@@ -20,7 +20,7 @@ h1, h2, h3 {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  .all_imgages {
+  .all_images {
     max-width: 100%;
     margin: auto;
 
@@ -41,12 +41,12 @@ p {
 /* Navbar */
 #navbar {
     background: #333;
-    /* background: #636160; */
     position:fixed;
     width: 100%;
     top: 0;
     color: #fff;
     overflow: auto;
+    z-index: 100;
   }
   
 #navbar a {
@@ -94,29 +94,37 @@ p {
 
 /* INDEX */
 
-/* Container holding the image and the text */
-.title_container {
-  position: relative;
-  text-align: center;
-  color: black;
+
+.background_image_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  min-height: 70vh;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
 }
-/* HWEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE */
-.centered {
-  position: absolute;
-  /* display:flex; */
-  align-items:center;
-  text-align: center;
-  /* padding-bottom: 100px; */
-  /* overflow: visible; */
-  /* text-size-adjust; */
-  font-size: 90px;
-  top: 20%;
-  bottom: 80%;
-  /* bottom: 100%; */
-  left: 10%; 
-  right: 10%;
-  /* transform: translate(-50%, -50%); */
+
+.index_title_image{
+  background-image: url("/img/whychus_fromDeschutes_land_trust_Scott_Nelson_2018.jpg");
 }
+
+.background_image_text {
+  margin-top: 1%;
+  flex: 1 1 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 70px;
+  text-align: center;
+  line-height: 1;
+}
+
+
 #index-description {
     display: flex;
     align-items: center;
