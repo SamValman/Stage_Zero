@@ -225,6 +225,13 @@ p {
   font-style: italic;
 }
 
+#test {
+  /* display: flex; */
+  /* align-items: center; */
+  /* align-self: center; */
+  text-align: center;
+}
+
 /* Benefits */
 
 #benefit-content {
