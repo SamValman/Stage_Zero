@@ -9,7 +9,7 @@
     <title>Welcome | Stage Zero </title>
 </head>
 <body>
-    <header>
+    <!-- <header>
         <nav id="navbar">
           <div class="container">
             <h1 class="logo"><a href="index.html">Stage Zero</a></h1>
@@ -23,12 +23,44 @@
             </ul>
           </div>
         </nav>
-      </header>
-      <!-- <svg viewBox="0 0 100 80" width="40" height="40">
-        <rect width="100" height="20"></rect>
-        <rect y="30" width="100" height="20"></rect>
-        <rect y="60" width="100" height="20"></rect>
-      </svg> -->
+      </header> -->
+
+
+
+
+<!-- Top Navigation Menu -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav">
+  <a href="index.html" class="active">Stage Zero</a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="about.html">About</a>
+    <a href="benefits.html">Benefits</a>
+    <a href="peer-reviewed.html">Peer-reviewed Articles</a>
+    <a href="resources.html">Resources</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+</script>
+
+
+
+
+
+
 
     <section id="developmentbanner">
         <div class="container">
