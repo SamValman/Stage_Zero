@@ -44,6 +44,9 @@ p {
   overflow: hidden;
   background-color: #333;
   position:fixed;
+  padding: 14px 1100px 40px 16px;
+  left: 1px;;
+  top: 0;
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
@@ -54,17 +57,18 @@ p {
 /* Style navigation menu links */
 .topnav a {
   color: white;
-  /* padding: 40px 600px; */
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
   display: block;
 }
 
 /* Style the hamburger menu */
 .topnav a.icon {
   background: #333;
-  display: block;
+  /* display: block; */
   position: fixed;
+  padding: 14px 16px 40px 200px;
+  text-align: center;
   right: 0;
   top: 0;
 }
