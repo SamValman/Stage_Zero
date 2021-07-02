@@ -44,7 +44,7 @@ p {
   overflow: hidden;
   background-color: #333;
   position:fixed;
-  padding: 14px 1100px 40px 16px;
+  padding: 20px 1100px 40px 30px;
   left: 1px;;
   top: 0;
 }
@@ -67,7 +67,7 @@ p {
   background: #333;
   /* display: block; */
   position: fixed;
-  padding: 14px 16px 40px 200px;
+  padding: 20px 16px 40px 200px;
   text-align: center;
   right: 0;
   top: 0;
