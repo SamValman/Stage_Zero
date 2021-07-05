@@ -45,6 +45,8 @@ p {
 
 /* Navbar */
 
+/* BELOW IS MOVED TO INDEX HEADER */
+
 /* @media screen and (max-width: 600px) {
   .navbar a:not(:first-child) {display: none;}
   .navbar a.icon {
@@ -68,27 +70,31 @@ p {
 } */
 
 .navbar a.icon {
-  /* position: fixed; */
+  position:fixed;
   float: right;
   display: none;
-  overflow: hidden;
   padding-top: 20px;
 }
 
-/* changed overflow from auto to hidden */
-.navbar {
-    background: #333;
-    position:fixed;
-    width: 100%;
-    top: 0;
-    color: #fff;
+  .navbar {
     overflow: hidden;
-    z-index: 100;
+    position: fixed;
+    width: 100%;
+    background: #333;
+    /* z-index: 100; */
+
   }
   
-.navbar a {
+
+
+  .navbar a {
+    float: right;
+    display: block;
     color: #fff;
+    padding: 20px 10px 40px 10px;
+    text-align: right;
   }
+  
   
  .navbar h1 {
     float: left;
@@ -96,6 +102,31 @@ p {
     padding-bottom: 40px;
   }
   
+  .navbar  a:hover, 
+  .navbar  a.current {
+      /* background: #444; */
+      color: #f7c08a;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* all UL is now removed  */
+
 .navbar ul {
     list-style: none;
     /* display: none; */
@@ -114,13 +145,20 @@ p {
     text-align: center;
   }
 
-  /* <!-- Current == active/current --> */
 
 .navbar ul li a:hover, 
 .navbar ul li a.current {
     background: #444;
     color: #f7c08a;
   }
+
+
+
+
+
+
+
+
   .img_txt {
     font-style: italic;
   }
