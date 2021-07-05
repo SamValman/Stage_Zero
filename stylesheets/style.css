@@ -79,6 +79,7 @@ p {
   .navbar {
     overflow: hidden;
     position: fixed;
+    display:inline-flexbox;
     width: 100%;
     background: #333;
     /* z-index: 100; */
