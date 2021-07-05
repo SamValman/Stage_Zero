@@ -46,22 +46,22 @@ p {
 /* Navbar */
 
 @media screen and (max-width: 600px) {
-  .navbar a:not(:first-child) {display: none;}
-  .navbar a.icon {
+  .tnav a:not(:first-child) {display: none;}
+  .tnav a.icon {
     float: right;
     display: block;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .navbar.responsive {position: relative;}
-  .navbar.responsive .icon {
+  .tnav.responsive {position: relative;}
+  .tnav.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
   }
   
-  .navbar.responsive a {
+  .tnav.responsive a {
     float: none;
     display: block;
     text-align: left;
