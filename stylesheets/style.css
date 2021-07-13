@@ -160,7 +160,8 @@ p {
 }
 
 .index_title_image{
-  background-image: url("../img/whychus_fromDeschutes_land_trust_Scott_Nelson_2018.jpg");
+  background-image: url("../img/DeerCreek_colin.png"); 
+  /* background-image: url("../img/whychus_fromDeschutes_land_trust_Scott_Nelson_2018.jpg"); */
 }
 
 .background_image_text {
@@ -169,8 +170,10 @@ p {
   align-items: center;
   justify-content: center;
   font-size: 70px;
-  text-align: center;
+  text-shadow: #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px;
+   text-align: center;
   line-height: 1;
+  color: #fff;
 }
 
 
