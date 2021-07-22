@@ -206,13 +206,21 @@ p {
 #main-footer {
     display: flex;
     /* text-align: center; */
-    align-items:flex-start;
+    align-items:center;
     background: #444;
     color: #fff;
     padding: 20px;
   }
-#main-footer img {
+.UoN_logo{
+  align-self: center;
     width: 20%;
+    
+}
+.NOAA_logo{
+  width: 20%;
+  align-self: center;
+  padding-left: 5px;
+
 }
 
 /* Resources */
