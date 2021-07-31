@@ -142,7 +142,15 @@ p {
 
 
 /* INDEX */
+.rowi {
+  display: flex;
+}
 
+/* Create three equal columns that sits next to each other */
+.columni {
+  flex: 50%;
+  padding: 10px;
+}
 
 .background_image_container {
   display: flex;
