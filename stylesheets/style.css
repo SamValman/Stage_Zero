@@ -257,29 +257,38 @@ input[type=contact_submit]:hover {
   }
 
   /* Footer */
+
 #main-footer {
     display: flex;
     text-align: right;
-    align-items:center;
+    /* align-items:center; */
     background: #444;
     color: #fff;
     padding: 20px;
   }
 #contact_footer {
   align-items: flex-end;
-  font-size: 30px;
+  align-self: end;
+  font-size: 150%;
   text-align: right;
   color: #fff;
+  padding-left: 40%;
+
 }
 .UoN_logo{
   align-self: center;
     width: 20%;
     
 }
+.FFS_logo{
+  width: 10%;
+  padding-left: 10px;
+}
+
 .NOAA_logo{
   width: 20%;
   align-self: center;
-  padding-left: 5px;
+  padding-left: 10px;
 
 }
 
