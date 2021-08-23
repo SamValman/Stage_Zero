@@ -1,7 +1,7 @@
 <?php
 
 
-if($_POST["message"]) {
+if($_POST["subject"]) {
 
 
 mail("s.valman@hotmail.co.uk", "Stage Zero: Contact us",
