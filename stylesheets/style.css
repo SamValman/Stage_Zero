@@ -244,12 +244,17 @@ input[type=contact_submit]:hover {
   /* Footer */
 #main-footer {
     display: flex;
-    /* text-align: center; */
+    text-align: right;
     align-items:center;
     background: #444;
     color: #fff;
     padding: 20px;
   }
+#contact_footer {
+  align-items: flex-end;
+  text-align: right;
+  color: #fff;
+}
 .UoN_logo{
   align-self: center;
     width: 20%;
