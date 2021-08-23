@@ -17,6 +17,13 @@
     <link rel="stylesheet" href="./stylesheets/style.css">
     <title>Welcome | Stage Zero </title>
 
+
+<style>
+      body {font-family: Arial, Helvetica, sans-serif;}
+      * {box-sizing: border-box;}
+</style>
+
+
 </head>
 <body>
   <div class="navbar" id="myNavbar" >
@@ -49,19 +56,39 @@
 
 
 
+<div class="contact_container" style="padding-top: 100px;">
+  <form method="post", action="https://formspree.io/f/mdoypbbq">
+
+    <label for="name">Full Name</label>
+    <input type="contact_text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Email</label>
+    <input type="contact_text" id="lname" name="lastname" placeholder="JoeBlogs@gmail.com">
 
 
-<div id="contact" style="padding: 400px;">
-  <h2>Get in Touch</h2>
+    <label for="subject">Subject</label>
+    <textarea id="contact_subject" name="contact_subject" placeholder="Write something.." style="height:350px"></textarea>
+
+    <input type="contact_submit" value="Submit">
+
+  </form>
+</div>
+
+<!-- <div id="contact" style="padding-top: 100px;">
+  <h1>Contact Us</h1>
   <div id="contact-form">
           <form action="https://formspree.io/f/mdoypbbq" method="POST">
-          <input type="hidden" name="_subject" value="Contact request from personal website" />
-          <input type="email" name="_replyto" placeholder="Your email" required>
-          <textarea name="message" placeholder="Type your message" required></textarea>
+
+          <input type="subject" name="subject" value="Contact request from personal website:" />
+          <textarea name="name" placeholder="Clarke Kent" required></textarea>
+
+          <input type="email" name="replyto" placeholder="Your email" required>
+          <textarea name="message" placeholder="Please type your message here.." required></textarea>
+
           <button type="submit">Send</button>
       </form>
   </div>
-</div>
+</div> -->
 
 
  
