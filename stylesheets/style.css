@@ -143,7 +143,22 @@ input[type=contact_submit]:hover {
   padding-top: 20px;
 }
 
+.contact_button {
+  background-color: #333; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+}
 
+.contact_button:hover {
+  background-color: #444;
+  color: #f7c08a;
+}
 
 
 
@@ -252,6 +267,7 @@ input[type=contact_submit]:hover {
   }
 #contact_footer {
   align-items: flex-end;
+  font-size: 30px;
   text-align: right;
   color: #fff;
 }
