@@ -14,4 +14,3 @@ $_POST["insert your message here"]. "From: an@email.address");
 
 
 ?>
-
