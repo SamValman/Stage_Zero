@@ -261,7 +261,6 @@ input[type=contact_submit]:hover {
 #main-footer {
     display: flex;
     text-align: right;
-    /* align-items:center; */
     background: #444;
     color: #fff;
     padding: 20px;
@@ -271,6 +270,13 @@ input[type=contact_submit]:hover {
   align-self: end;
   font-size: 150%;
   text-align: right;
+  color: #fff;
+  padding-left: 40%;
+
+}
+#calendar_footer {
+
+  font-size: 150%;
   color: #fff;
   padding-left: 40%;
 
