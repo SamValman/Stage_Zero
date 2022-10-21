@@ -218,6 +218,10 @@ input[type=contact_submit]:hover {
   /* background-image: url("../img/whychus_fromDeschutes_land_trust_Scott_Nelson_2018.jpg"); */
 }
 
+.holincote_title_image {
+  background-image: url();
+}
+
 .background_image_text {
   margin-top: 1%;
   flex: 1 1 100%;
