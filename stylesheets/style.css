@@ -37,8 +37,14 @@ p {
     max-width: 1100px;
     overflow: auto;
     padding: 0 20px;
+    text-align: center;
   }
-
+.containerNews {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+  }
 
 
 
@@ -478,3 +484,110 @@ input[type=contact_submit]:hover {
 }
 
 
+
+/* news page****************************************************************** */
+
+/* Blog post */
+.news_blog {
+  background-color: rgb(92, 194, 131);
+  /* margin: 10px, 10px; */
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  text-align: center;
+  /* padding: 10px, 10px; */
+  color: black;
+}
+
+.news_blog h3  {
+  margin-bottom: 2px;
+  padding-bottom: 1px;
+}
+.news_blog h4  {
+  margin-bottom: 2px;
+  padding-bottom: 1px;
+  font-style: italic;
+}
+.news_blog a{
+  color: black;
+  font-weight: bold;
+  font-style: oblique;
+}
+/* New general news article */
+.news_genArticle {
+  background-color: rgb(184, 171, 230);
+  /* margin: 10px, 10px; */
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  text-align: center;
+  /* padding: 10px, 10px; */
+  color: black;
+}
+
+.news_genArticle h3  {
+  margin-bottom: 2px;
+  padding-bottom: 1px;
+}
+.news_genArticle h4  {
+  margin-bottom: 2px;
+  padding-bottom: 1px;
+  font-style: italic;
+}
+.news_genArticle a{
+  color: black;
+  font-weight: bold;
+  font-style: oblique;
+}
+/* New academic article  */
+.news_pr {
+  background-color: rgb(184, 94, 94);
+  /* margin: 10px, 10px; */
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  text-align: center;
+  /* padding: 10px, 10px; */
+  color: black;
+}
+
+.news_pr h3  {
+  margin-bottom: 2px;
+  padding-bottom: 1px;
+}
+.news_pr h4  {
+  margin-bottom: 2px;
+  padding-bottom: 1px;
+  font-style: italic;
+}
+.news_pr a{
+  color: black;
+  font-weight: bold;
+  font-style: oblique;
+}
+/* New images/videos etc */
+.news_ims {
+  background-color: rgb(146, 150, 149);
+  /* margin: 10px, 10px; */
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  text-align: center;
+  /* padding: 10px, 10px; */
+  color: black;
+}
+
+.news_ims h3  {
+  margin-bottom: 2px;
+  padding-bottom: 1px;
+}
+.news_ims h4  {
+  margin-bottom: 2px;
+  padding-bottom: 1px;
+  font-style: italic;
+}
+.news_ims a{
+  color: black;
+  font-weight: bold;
+  font-style: oblique;
+}
